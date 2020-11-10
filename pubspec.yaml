@@ -1,0 +1,16 @@
+name: api_ekko
+
+dependencies:
+  logger: ^0.9.2
+  get_server: ^0.10.6
+
+  # get_server:
+  #   path: "C:/Projetos/Personal/libs/get_server"
+  # get_server:
+  #   git:
+  #     url: https://github.com/Katekko/get_server.git
+  #     ref: master
+
+dev_dependencies:
+  build_runner: ^1.10.1
+  json_serializable: ^3.5.0
