@@ -1,0 +1,10 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+GetTurmasBody _$GetTurmasBodyFromJson(Map<String, dynamic> json) {
+  return GetTurmasBody();
+}
+
+Map<String, dynamic> _$GetTurmasBodyToJson(GetTurmasBody instance) =>
+    <String, dynamic>{};

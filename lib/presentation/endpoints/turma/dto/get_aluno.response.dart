@@ -8,7 +8,7 @@ part 'get_aluno.response.g.dart';
 @JsonSerializable()
 class GetAlunoResponse {
   bool sucesso;
-  DataResponse data;
+  GetAlunoDataResponse data;
   String error;
 
   GetAlunoResponse({this.sucesso, this.data, this.error});
@@ -20,14 +20,14 @@ class GetAlunoResponse {
 }
 
 @JsonSerializable()
-class DataResponse {
+class GetAlunoDataResponse {
   AlunoData aluno;
   TurmaData turma;
 
-  DataResponse({@required this.aluno, @required this.turma});
+  GetAlunoDataResponse({@required this.aluno, @required this.turma});
 
-  factory DataResponse.fromJson(Map<String, dynamic> json) =>
-      _$DataResponseFromJson(json);
+  factory GetAlunoDataResponse.fromJson(Map<String, dynamic> json) =>
+      _$GetAlunoDataResponseFromJson(json);
 
-  Map<String, dynamic> toJson() => _$DataResponseToJson(this);
+  Map<String, dynamic> toJson() => _$GetAlunoDataResponseToJson(this);
 }

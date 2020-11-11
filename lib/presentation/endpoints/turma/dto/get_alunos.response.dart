@@ -3,28 +3,28 @@ import 'package:api_ekko/presentation/endpoints/data/turma.data.dart';
 import 'package:json_annotation/json_annotation.dart';
 import 'package:meta/meta.dart';
 
-part 'get_aluno.response.g.dart';
+part 'get_alunos.response.g.dart';
 
 @JsonSerializable()
-class GetAlunoResponse {
+class GetAlunosResponse {
   bool sucesso;
   DataResponse data;
   String error;
 
-  GetAlunoResponse({this.sucesso, this.data, this.error});
+  GetAlunosResponse({this.sucesso, this.data, this.error});
 
-  factory GetAlunoResponse.fromJson(Map<String, dynamic> json) =>
-      _$GetAlunoResponseFromJson(json);
+  factory GetAlunosResponse.fromJson(Map<String, dynamic> json) =>
+      _$GetAlunosResponseFromJson(json);
 
-  Map<String, dynamic> toJson() => _$GetAlunoResponseToJson(this);
+  Map<String, dynamic> toJson() => _$GetAlunosResponseToJson(this);
 }
 
 @JsonSerializable()
 class DataResponse {
-  AlunoData aluno;
-  TurmaData turma;
+  List<AlunoData> alunos;
+  List<TurmaData> turmas;
 
-  DataResponse({@required this.aluno, @required this.turma});
+  DataResponse({@required this.alunos, @required this.turmas});
 
   factory DataResponse.fromJson(Map<String, dynamic> json) =>
       _$DataResponseFromJson(json);

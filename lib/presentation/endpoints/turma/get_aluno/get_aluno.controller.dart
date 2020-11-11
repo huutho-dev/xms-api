@@ -1,5 +1,5 @@
-import 'package:api_ekko/presentation/endpoints/turma/data/aluno.data.dart';
-import 'package:api_ekko/presentation/endpoints/turma/data/turma.data.dart';
+import 'package:api_ekko/presentation/endpoints/data/aluno.data.dart';
+import 'package:api_ekko/presentation/endpoints/data/turma.data.dart';
 import 'package:get_server/get_server.dart';
 
 import '../../../../domain/core/exceptions/invalid_body.exception.dart';

@@ -1,6 +1,6 @@
-import 'package:api_ekko/presentation/endpoints/turma/data/episodio.data.dart';
-import 'package:api_ekko/presentation/endpoints/turma/data/game.data.dart';
-import 'package:api_ekko/presentation/endpoints/turma/data/mundo.data.dart';
+import 'package:api_ekko/presentation/endpoints/data/episodio.data.dart';
+import 'package:api_ekko/presentation/endpoints/data/game.data.dart';
+import 'package:api_ekko/presentation/endpoints/data/mundo.data.dart';
 
 class GamesDados {
   static final game1 = GameData(

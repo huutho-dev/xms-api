@@ -1,4 +1,4 @@
-import 'package:api_ekko/presentation/endpoints/turma/data/turma.data.dart';
+import 'package:api_ekko/presentation/endpoints/data/turma.data.dart';
 import 'package:json_annotation/json_annotation.dart';
 import 'package:meta/meta.dart';
 

@@ -1,13 +1,13 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'get_aluno.response.dart';
+part of 'get_alunos.response.dart';
 
 // **************************************************************************
 // JsonSerializableGenerator
 // **************************************************************************
 
-GetAlunoResponse _$GetAlunoResponseFromJson(Map<String, dynamic> json) {
-  return GetAlunoResponse(
+GetAlunosResponse _$GetAlunosResponseFromJson(Map<String, dynamic> json) {
+  return GetAlunosResponse(
     sucesso: json['sucesso'] as bool,
     data: json['data'] == null
         ? null
@@ -16,7 +16,7 @@ GetAlunoResponse _$GetAlunoResponseFromJson(Map<String, dynamic> json) {
   );
 }
 
-Map<String, dynamic> _$GetAlunoResponseToJson(GetAlunoResponse instance) =>
+Map<String, dynamic> _$GetAlunosResponseToJson(GetAlunosResponse instance) =>
     <String, dynamic>{
       'sucesso': instance.sucesso,
       'data': instance.data,
@@ -25,13 +25,19 @@ Map<String, dynamic> _$GetAlunoResponseToJson(GetAlunoResponse instance) =>
 
 DataResponse _$DataResponseFromJson(Map<String, dynamic> json) {
   return DataResponse(
-    aluno: json['aluno'],
-    turma: json['turma'],
+    alunos: (json['alunos'] as List)
+        ?.map((e) =>
+            e == null ? null : AlunoData.fromJson(e as Map<String, dynamic>))
+        ?.toList(),
+    turmas: (json['turmas'] as List)
+        ?.map((e) =>
+            e == null ? null : TurmaData.fromJson(e as Map<String, dynamic>))
+        ?.toList(),
   );
 }
 
 Map<String, dynamic> _$DataResponseToJson(DataResponse instance) =>
     <String, dynamic>{
-      'aluno': instance.aluno,
-      'turma': instance.turma,
+      'alunos': instance.alunos,
+      'turmas': instance.turmas,
     };

@@ -1,6 +1,6 @@
-import 'package:api_ekko/presentation/endpoints/turma/data/aluno.data.dart';
-import 'package:api_ekko/presentation/endpoints/turma/data/historico_aluno.data.dart';
-import 'package:api_ekko/presentation/endpoints/turma/data/nota_vermelha_info.data.dart';
+import 'package:api_ekko/presentation/endpoints/data/aluno.data.dart';
+import 'package:api_ekko/presentation/endpoints/data/historico_aluno.data.dart';
+import 'package:api_ekko/presentation/endpoints/data/nota_vermelha_info.data.dart';
 
 class AlunosDados {
   static final aluno1 = AlunoData(

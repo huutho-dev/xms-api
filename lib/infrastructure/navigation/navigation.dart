@@ -41,5 +41,10 @@ class Nav {
       page: () => PostEnviarMensagemAlunosEndpoint(),
       binding: PostEnviarMensagemAlunosControllerBinding(),
     ),
+    GetPage(
+      name: Routes.GET_TURMAS,
+      page: () => GetTurmasEndpoint(),
+      binding: GetTurmasControllerBinding(),
+    ),    
   ];
 }
