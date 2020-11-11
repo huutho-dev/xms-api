@@ -4,6 +4,7 @@ export 'authenticate_user.controller.binding.dart';
 export 'get_aluno.controller.binding.dart';
 export 'get_alunos.controller.binding.dart';
 export 'get_alunos_by_turma.controller.binding.dart';
+export 'get_historico_aluno.controller.binding.dart';
 export 'get_mensagens_enviadas.controller.binding.dart';
 export 'get_tarefas.controller.binding.dart';
 export 'get_todos_alunos.controller.binding.dart';

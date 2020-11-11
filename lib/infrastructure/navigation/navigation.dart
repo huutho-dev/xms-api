@@ -97,5 +97,10 @@ class Nav {
       page: () => GetAlunosEndpoint(),
       binding: GetAlunosControllerBinding(),
     ),
+    GetPage(
+      name: Routes.GET_HISTORICO_ALUNO,
+      page: () => GetHistoricoAlunoEndpoint(),
+      binding: GetHistoricoAlunoControllerBinding(),
+    ),    
   ];
 }

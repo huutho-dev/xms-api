@@ -1,0 +1,12 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+GetHistoricoAlunoBody _$GetHistoricoAlunoBodyFromJson(
+    Map<String, dynamic> json) {
+  return GetHistoricoAlunoBody();
+}
+
+Map<String, dynamic> _$GetHistoricoAlunoBodyToJson(
+        GetHistoricoAlunoBody instance) =>
+    <String, dynamic>{};
