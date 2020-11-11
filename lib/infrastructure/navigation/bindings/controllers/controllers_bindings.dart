@@ -1,3 +1,4 @@
+export 'atualizar_tarefa.controller.binding.dart';
 export 'authenticate_user.controller.binding.dart';
 export 'get_aluno.controller.binding.dart';
 export 'get_alunos_by_turma.controller.binding.dart';

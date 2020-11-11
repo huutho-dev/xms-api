@@ -3,7 +3,7 @@ class Routes {
     return HOME;
   }
 
-  static const POST_TAREFA = '/api/tarefa';
+  static const ATUALIZAR_TAREFA = '/api/tarefa';
   static const AUTHENTICATE_USER = '/api/auth/login';
   static const ENVIAR_MENSAGEM_ALUNOS = '/api/usuario/mensagem-alunos/enviar';
   static const GET_ALUNO = '/api/turma/:id/alunos/:responsavelId';
@@ -15,4 +15,5 @@ class Routes {
   static const POST_ARQUIVAR_MENSAGEM = '/api/usuario/mensagem/arquivar';
   static const POST_FALE_CONOSCO = '/api/usuario/mensagem-fale-conosco/enviar';
   static const POST_RATTING = '/api/ratting';
+  static const POST_TAREFA = '/api/tarefa';
 }

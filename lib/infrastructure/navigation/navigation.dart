@@ -75,5 +75,11 @@ class Nav {
       page: () => PostTarefaEndpoint(),
       binding: PostTarefaControllerBinding(),
     ),
+    GetPage(
+      name: Routes.ATUALIZAR_TAREFA,
+      method: Method.put,
+      page: () => AtualizarTarefaEndpoint(),
+      binding: AtualizarTarefaControllerBinding(),
+    ),
   ];
 }
