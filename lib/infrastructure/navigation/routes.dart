@@ -4,6 +4,7 @@ class Routes {
   }
 
   static const AUTHENTICATE_USER = '/api/auth/login';
-  static const GET_ALUNO = '/api/turma/{id}/alunos/{responsavelId}';
+  //TODO: Arrumar get aluno com path params
+  static const GET_ALUNO = '/api/turma/?id/alunos/?responsavelId';
   static const HOME = '/';
 }
