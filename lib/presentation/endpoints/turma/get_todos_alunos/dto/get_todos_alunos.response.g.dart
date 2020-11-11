@@ -9,7 +9,7 @@ part of 'get_todos_alunos.response.dart';
 GetTodosAlunosResponse _$GetTodosAlunosResponseFromJson(
     Map<String, dynamic> json) {
   return GetTodosAlunosResponse(
-    success: json['success'] as bool,
+    sucesso: json['sucesso'] as bool,
     data: json['data'] == null ? null : DataResponse.fromJson(json['data']),
     error: json['error'] as String,
   );
@@ -18,7 +18,7 @@ GetTodosAlunosResponse _$GetTodosAlunosResponseFromJson(
 Map<String, dynamic> _$GetTodosAlunosResponseToJson(
         GetTodosAlunosResponse instance) =>
     <String, dynamic>{
-      'success': instance.success,
+      'sucesso': instance.sucesso,
       'data': instance.data,
       'error': instance.error,
     };

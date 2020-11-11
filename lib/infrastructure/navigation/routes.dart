@@ -3,11 +3,12 @@ class Routes {
     return HOME;
   }
 
-  static const DELETE_TURMA = '/api/turma/:id';
+  static const CRIAR_TURMA = '/turma';
   static const ARQUIVAR_TAREFA = '/api/tarefa/:id/arquivar';
   static const ATUALIZAR_TAREFA = '/api/tarefa';
   static const AUTHENTICATE_USER = '/api/auth/login';
   static const CADASTRAR_ALUNO = '/api/turma/:id/alunos/cadastrar';
+  static const DELETE_TURMA = '/api/turma/:id';
   static const ENVIAR_MENSAGEM_ALUNOS = '/api/usuario/mensagem-alunos/enviar';
   static const GET_ALUNO = '/api/turma/:id/alunos/:responsavelId';
   static const GET_ALUNOS = '/turma/:id/alunos';

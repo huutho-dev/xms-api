@@ -23,7 +23,7 @@ class GetTodosAlunosController extends GetxController {
     @required List<TurmaData> turmas,
   }) {
     var response = GetTodosAlunosResponse(
-      success: true,
+      sucesso: true,
       data: DataResponse(alunos: alunos, turmas: turmas),
     );
     return response;
@@ -41,6 +41,6 @@ class GetTodosAlunosController extends GetxController {
         break;
     }
 
-    return GetTodosAlunosResponse(success: false, error: error);
+    return GetTodosAlunosResponse(sucesso: false, error: error);
   }
 }

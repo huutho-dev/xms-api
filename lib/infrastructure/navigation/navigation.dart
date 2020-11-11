@@ -114,5 +114,11 @@ class Nav {
       page: () => DeleteTurmaEndpoint(),
       binding: DeleteTurmaControllerBinding(),
     ),
+    GetPage(
+      name: Routes.CRIAR_TURMA,
+      method: Method.post,
+      page: () => CriarTurmaEndpoint(),
+      binding: CriarTurmaControllerBinding(),
+    ),
   ];
 }

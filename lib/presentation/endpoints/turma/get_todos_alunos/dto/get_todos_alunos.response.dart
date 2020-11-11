@@ -7,11 +7,11 @@ part 'get_todos_alunos.response.g.dart';
 
 @JsonSerializable()
 class GetTodosAlunosResponse {
-  final bool success;
+  final bool sucesso;
   final DataResponse data;
   final String error;
 
-  const GetTodosAlunosResponse({@required this.success, this.data, this.error});
+  const GetTodosAlunosResponse({@required this.sucesso, this.data, this.error});
 
   factory GetTodosAlunosResponse.fromJson(json) =>
       _$GetTodosAlunosResponseFromJson(json);
