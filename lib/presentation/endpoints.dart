@@ -1,0 +1,1 @@
+export 'endpoints/turma/get_aluno/get_aluno.endpoint.dart';

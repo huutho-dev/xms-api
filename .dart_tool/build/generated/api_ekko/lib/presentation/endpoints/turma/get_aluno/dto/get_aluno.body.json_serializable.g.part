@@ -1,0 +1,10 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+GetAlunoBody _$GetAlunoBodyFromJson(Map<String, dynamic> json) {
+  return GetAlunoBody();
+}
+
+Map<String, dynamic> _$GetAlunoBodyToJson(GetAlunoBody instance) =>
+    <String, dynamic>{};

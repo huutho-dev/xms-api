@@ -4,7 +4,5 @@ class Routes {
   }
 
   static const HOME = '/';
-  static const LOGIN = '/api/auth/login';
-  static const RECOVER_PASSWORD = '/api/auth/recover-password';
-  static const GET_USER_INFO = '/api/user';
+  static const GET_ALUNO = '/api/turma/{id}/alunos/{responsavelId}';
 }
