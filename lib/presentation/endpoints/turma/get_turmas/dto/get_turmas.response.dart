@@ -1,3 +1,4 @@
+import 'package:api_ekko/presentation/endpoints/data/turma.data.dart';
 import 'package:json_annotation/json_annotation.dart';
 import 'package:meta/meta.dart';
 
@@ -5,13 +6,13 @@ part 'get_turmas.response.g.dart';
 
 @JsonSerializable()
 class GetTurmasResponse {
-  final bool success;
-  final DataResponse data;
-  final String error;
+  bool sucesso;
+  DataResponse data;
+  String error;
 
-  const GetTurmasResponse({@required this.success, this.data, this.error});
+  GetTurmasResponse({this.sucesso, this.data, this.error});
 
-  factory GetTurmasResponse.fromJson(json) =>
+  factory GetTurmasResponse.fromJson(Map<String, dynamic> json) =>
       _$GetTurmasResponseFromJson(json);
 
   Map<String, dynamic> toJson() => _$GetTurmasResponseToJson(this);
@@ -19,7 +20,12 @@ class GetTurmasResponse {
 
 @JsonSerializable()
 class DataResponse {
-  const DataResponse();
-  factory DataResponse.fromJson(json) => _$DataResponseFromJson(json);
+  List<TurmaData> turmas;
+
+  DataResponse({@required this.turmas});
+
+  factory DataResponse.fromJson(Map<String, dynamic> json) =>
+      _$DataResponseFromJson(json);
+
   Map<String, dynamic> toJson() => _$DataResponseToJson(this);
 }

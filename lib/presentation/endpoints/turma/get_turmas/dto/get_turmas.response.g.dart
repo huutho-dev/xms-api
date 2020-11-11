@@ -8,22 +8,31 @@ part of 'get_turmas.response.dart';
 
 GetTurmasResponse _$GetTurmasResponseFromJson(Map<String, dynamic> json) {
   return GetTurmasResponse(
-    success: json['success'] as bool,
-    data: json['data'] == null ? null : DataResponse.fromJson(json['data']),
+    sucesso: json['sucesso'] as bool,
+    data: json['data'] == null
+        ? null
+        : DataResponse.fromJson(json['data'] as Map<String, dynamic>),
     error: json['error'] as String,
   );
 }
 
 Map<String, dynamic> _$GetTurmasResponseToJson(GetTurmasResponse instance) =>
     <String, dynamic>{
-      'success': instance.success,
+      'sucesso': instance.sucesso,
       'data': instance.data,
       'error': instance.error,
     };
 
 DataResponse _$DataResponseFromJson(Map<String, dynamic> json) {
-  return DataResponse();
+  return DataResponse(
+    turmas: (json['turmas'] as List)
+        ?.map((e) =>
+            e == null ? null : TurmaData.fromJson(e as Map<String, dynamic>))
+        ?.toList(),
+  );
 }
 
 Map<String, dynamic> _$DataResponseToJson(DataResponse instance) =>
-    <String, dynamic>{};
+    <String, dynamic>{
+      'turmas': instance.turmas,
+    };

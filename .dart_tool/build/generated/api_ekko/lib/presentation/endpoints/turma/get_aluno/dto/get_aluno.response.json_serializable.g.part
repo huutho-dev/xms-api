@@ -21,8 +21,12 @@ Map<String, dynamic> _$GetAlunoResponseToJson(GetAlunoResponse instance) =>
 
 DataResponse _$DataResponseFromJson(Map<String, dynamic> json) {
   return DataResponse(
-    aluno: json['aluno'],
-    turma: json['turma'],
+    aluno: json['aluno'] == null
+        ? null
+        : AlunoData.fromJson(json['aluno'] as Map<String, dynamic>),
+    turma: json['turma'] == null
+        ? null
+        : TurmaData.fromJson(json['turma'] as Map<String, dynamic>),
   );
 }
 

@@ -44,7 +44,9 @@ UsuarioData _$UsuarioDataFromJson(Map<String, dynamic> json) {
     perfil: json['perfil'] as String,
     nomeEscola: json['nomeEscola'] as String,
     login: json['login'] as String,
-    turmaAtual: json['turmaAtual'],
+    turmaAtual: json['turmaAtual'] == null
+        ? null
+        : TurmaData.fromJson(json['turmaAtual'] as Map<String, dynamic>),
   );
 }
 

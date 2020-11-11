@@ -3,7 +3,7 @@ class Routes {
     return HOME;
   }
 
-  static const GET_TURMAS = '/turma/get-turmas';
+  static const GET_TURMAS = '/api/turma';
   static const AUTHENTICATE_USER = '/api/auth/login';
   static const GET_ALUNO = '/api/turma/:id/alunos/:responsavelId';
   static const GET_MENSAGENS_ENVIADAS = '/api/usuario/mensagem/enviadas';
