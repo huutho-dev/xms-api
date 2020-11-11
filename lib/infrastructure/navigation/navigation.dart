@@ -101,6 +101,12 @@ class Nav {
       name: Routes.GET_HISTORICO_ALUNO,
       page: () => GetHistoricoAlunoEndpoint(),
       binding: GetHistoricoAlunoControllerBinding(),
-    ),    
+    ),
+    GetPage(
+      name: Routes.CADASTRAR_ALUNO,
+      method: Method.post,
+      page: () => CadastrarAlunoEndpoint(),
+      binding: CadastrarAlunoControllerBinding(),
+    ),
   ];
 }

@@ -3,7 +3,7 @@ class Routes {
     return HOME;
   }
 
-  static const GET_HISTORICO_ALUNO = '/api/turma/aluno/:id/historico';
+  static const CADASTRAR_ALUNO = '/api/turma/:id/alunos/cadastrar';
   static const ARQUIVAR_TAREFA = '/api/tarefa/:id/arquivar';
   static const ATUALIZAR_TAREFA = '/api/tarefa';
   static const AUTHENTICATE_USER = '/api/auth/login';
@@ -11,6 +11,7 @@ class Routes {
   static const GET_ALUNO = '/api/turma/:id/alunos/:responsavelId';
   static const GET_ALUNOS = '/turma/:id/alunos';
   static const GET_ALUNOS_BY_TURMAS = '/api/turma/alunos';
+  static const GET_HISTORICO_ALUNO = '/api/turma/aluno/:id/historico';
   static const GET_MENSAGENS_ENVIADAS = '/api/usuario/mensagem/enviadas';
   static const GET_TAREFAS = '/api/tarefa';
   static const GET_TODOS_ALUNOS = '/api/turma/alunos';
