@@ -9,7 +9,7 @@ abstract class TarefasDados {
   static final tarefa1 = TarefaData(
     id: 1,
     title: 'Tarefa 1',
-    alunos: [AlunosDados.aluno1],
+    alunos: [AlunosDados.allAlunos.first],
     turmas: [TurmasDados.turma1],
     agendamento: DateTime.now(),
     game: GamesDados.game1,

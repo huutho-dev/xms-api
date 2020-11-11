@@ -11,7 +11,7 @@ class GetAlunoEndpoint extends GetView<GetAlunoController> {
   FutureOr<Widget> build(BuildContext context) async {
     try {
       var response = controller.createResponse(
-        AlunosDados.aluno1,
+        AlunosDados.allAlunos.first,
         TurmasDados.turma1,
       );
       return Json(response);
