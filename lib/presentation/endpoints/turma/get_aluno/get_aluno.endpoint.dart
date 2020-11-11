@@ -10,8 +10,6 @@ class GetAlunoEndpoint extends GetView<GetAlunoController> {
   @override
   FutureOr<Widget> build(BuildContext context) async {
     try {
-      var payload = await context.request.payload();
-      var path = await context.request.param;
       var response = controller.createResponse(
         AlunosDados.aluno1,
         TurmasDados.turma1,
