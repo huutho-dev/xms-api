@@ -120,5 +120,11 @@ class Nav {
       page: () => CriarTurmaEndpoint(),
       binding: CriarTurmaControllerBinding(),
     ),
+    GetPage(
+      name: Routes.ATUALIZAR_TURMA,
+      method: Method.put,
+      page: () => AtualizarTurmaEndpoint(),
+      binding: AtualizarTurmaControllerBinding(),
+    ),
   ];
 }

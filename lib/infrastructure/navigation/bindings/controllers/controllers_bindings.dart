@@ -1,5 +1,6 @@
 export 'arquivar_tarefa.controller.binding.dart';
 export 'atualizar_tarefa.controller.binding.dart';
+export 'atualizar_turma.controller.binding.dart';
 export 'authenticate_user.controller.binding.dart';
 export 'cadastrar_aluno.controller.binding.dart';
 export 'criar_turma.controller.binding.dart';
