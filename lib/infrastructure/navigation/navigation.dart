@@ -52,5 +52,11 @@ class Nav {
       page: () => GetAlunosByTurmaEndpoint(),
       binding: GetAlunosByTurmaControllerBinding(),
     ),
+    GetPage(
+      name: Routes.POST_RATTING,
+      method: Method.post,
+      page: () => PostRattingEndpoint(),
+      binding: PostRattingControllerBinding(),
+    ),
   ];
 }
