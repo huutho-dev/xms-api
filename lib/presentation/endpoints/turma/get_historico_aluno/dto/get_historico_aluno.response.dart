@@ -6,12 +6,15 @@ part 'get_historico_aluno.response.g.dart';
 
 @JsonSerializable()
 class GetHistoricoAlunoResponse {
-  final bool success;
+  final bool sucesso;
   final DataResponse data;
   final String error;
 
-  const GetHistoricoAlunoResponse(
-      {@required this.success, this.data, this.error});
+  const GetHistoricoAlunoResponse({
+    @required this.sucesso,
+    this.data,
+    this.error,
+  });
 
   factory GetHistoricoAlunoResponse.fromJson(json) =>
       _$GetHistoricoAlunoResponseFromJson(json);

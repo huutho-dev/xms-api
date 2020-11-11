@@ -21,7 +21,7 @@ class GetHistoricoAlunoController extends GetxController {
     @required List<HistoricoData> historicoAluno,
   }) {
     var response = GetHistoricoAlunoResponse(
-      success: true,
+      sucesso: true,
       data: DataResponse(historicoAluno: historicoAluno),
     );
     return response;
@@ -39,6 +39,6 @@ class GetHistoricoAlunoController extends GetxController {
         break;
     }
 
-    return GetHistoricoAlunoResponse(success: false, error: error);
+    return GetHistoricoAlunoResponse(sucesso: false, error: error);
   }
 }

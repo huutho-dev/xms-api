@@ -14,15 +14,3 @@ abstract class HistoricoAlunoDados {
     data: DateTime(2020, 06, 26, 18, 08, 41),
   );
 }
-
-// public static MapaHistoricoAlunoModel historico1 = new MapaHistoricoAlunoModel
-// {
-//     Id = 1,
-//     area = "Ciências humanas",
-//     conceito = "Grandezas e medidas - 1",
-//     mundo = 1,
-//     data = new DateTime(2020, 06, 26, 18, 08, 41),
-//     desafio = 2,
-//     episodio = 3,
-//     nivelConceito = 1,
-// };

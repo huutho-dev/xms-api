@@ -9,7 +9,7 @@ part of 'get_historico_aluno.response.dart';
 GetHistoricoAlunoResponse _$GetHistoricoAlunoResponseFromJson(
     Map<String, dynamic> json) {
   return GetHistoricoAlunoResponse(
-    success: json['success'] as bool,
+    sucesso: json['sucesso'] as bool,
     data: json['data'] == null ? null : DataResponse.fromJson(json['data']),
     error: json['error'] as String,
   );
@@ -18,7 +18,7 @@ GetHistoricoAlunoResponse _$GetHistoricoAlunoResponseFromJson(
 Map<String, dynamic> _$GetHistoricoAlunoResponseToJson(
         GetHistoricoAlunoResponse instance) =>
     <String, dynamic>{
-      'success': instance.success,
+      'sucesso': instance.sucesso,
       'data': instance.data,
       'error': instance.error,
     };
