@@ -47,10 +47,10 @@ class Nav {
       binding: GetTurmasControllerBinding(),
     ),
     GetPage(
-      name: Routes.GET_ALUNOS_BY_TURMA,
+      name: Routes.GET_ALUNOS_BY_TURMAS,
       method: Method.post,
-      page: () => GetAlunosByTurmaEndpoint(),
-      binding: GetAlunosByTurmaControllerBinding(),
+      page: () => GetAlunosByTurmasEndpoint(),
+      binding: GetAlunosByTurmasControllerBinding(),
     ),
     GetPage(
       name: Routes.POST_RATTING,
@@ -91,6 +91,11 @@ class Nav {
       name: Routes.GET_TODOS_ALUNOS,
       page: () => GetTodosAlunosEndpoint(),
       binding: GetTodosAlunosControllerBinding(),
-    ),    
+    ),
+    GetPage(
+      name: Routes.GET_ALUNOS,
+      page: () => GetAlunosEndpoint(),
+      binding: GetAlunosControllerBinding(),
+    ),
   ];
 }

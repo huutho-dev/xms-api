@@ -8,7 +8,7 @@ import 'package:get_server/get_server.dart';
 
 import 'get_alunos_by_turmas.controller.dart';
 
-class GetAlunosByTurmaEndpoint extends GetView<GetAlunosByTurmaController> {
+class GetAlunosByTurmasEndpoint extends GetView<GetAlunosByTurmasController> {
   @override
   FutureOr<Widget> build(BuildContext context) async {
     try {

@@ -7,7 +7,7 @@ import 'package:meta/meta.dart';
 import 'dto/get_alunos_by_turmas.body.dart';
 import 'dto/get_alunos_by_turmas.response.dart';
 
-class GetAlunosByTurmaController extends GetxController {
+class GetAlunosByTurmasController extends GetxController {
   Future<GetAlunosByTurmasBody> validateBody({
     @required Map<dynamic, dynamic> payload,
   }) async {
