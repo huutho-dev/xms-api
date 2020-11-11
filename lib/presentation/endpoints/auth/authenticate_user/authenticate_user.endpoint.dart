@@ -29,7 +29,7 @@ class AuthenticateUserEndpoint extends GetView<AuthenticateUserController> {
           nome: 'João Reigota',
           email: 'xmile@me.com',
           perfil: 'P',
-          nomeEscola: 'Escola X BURGUER',
+          nomeEscola: 'Escola XMS',
           login: body.login,
           turmaAtual: null,
         );

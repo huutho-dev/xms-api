@@ -19,7 +19,7 @@ abstract class TurmasDados {
     cienciasNaturaisPercent: Random().nextDouble() * 100,
     cienciasHumanasPercent: Random().nextDouble() * 100,
     game: GamesDados.game1,
-    areas: MateriaDados.materiasDados,
+    areas: MateriaDados.materiasDados(Random().nextInt(10)),
   );
 
   static final turma2 = TurmaData(
@@ -33,7 +33,7 @@ abstract class TurmasDados {
     cienciasNaturaisPercent: Random().nextDouble() * 100,
     cienciasHumanasPercent: Random().nextDouble() * 100,
     game: GamesDados.game2,
-    areas: MateriaDados.materiasDados,
+    areas: MateriaDados.materiasDados(Random().nextInt(10)),
   );
 
   static final turma3 = TurmaData(
@@ -47,7 +47,7 @@ abstract class TurmasDados {
     cienciasNaturaisPercent: Random().nextDouble() * 100,
     cienciasHumanasPercent: Random().nextDouble() * 100,
     game: GamesDados.game3,
-    areas: MateriaDados.materiasDados,
+    areas: MateriaDados.materiasDados(Random().nextInt(10)),
   );
 
   static final turma4 = TurmaData(
@@ -61,7 +61,7 @@ abstract class TurmasDados {
     cienciasNaturaisPercent: Random().nextDouble() * 100,
     cienciasHumanasPercent: Random().nextDouble() * 100,
     game: GamesDados.game4,
-    areas: MateriaDados.materiasDados,
+    areas: MateriaDados.materiasDados(Random().nextInt(10)),
   );
 
   static final turma5 = TurmaData(
@@ -75,6 +75,6 @@ abstract class TurmasDados {
     cienciasNaturaisPercent: Random().nextDouble() * 100,
     cienciasHumanasPercent: Random().nextDouble() * 100,
     game: GamesDados.game5,
-    areas: MateriaDados.materiasDados,
+    areas: MateriaDados.materiasDados(Random().nextInt(10)),
   );
 }
