@@ -3,6 +3,8 @@ import 'package:api_ekko/presentation/endpoints/data/historico_aluno.data.dart';
 import 'package:api_ekko/presentation/endpoints/data/nota_vermelha_info.data.dart';
 
 class AlunosDados {
+  static final allAlunos = [aluno1];
+
   static final aluno1 = AlunoData(
     id: 1,
     nome: 'Rodrigo',

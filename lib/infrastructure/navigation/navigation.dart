@@ -36,7 +36,7 @@ class Nav {
       binding: PostArquivarMensagemControllerBinding(),
     ),
     GetPage(
-      name: Routes.POST_ENVIAR_MENSAGEM_ALUNOS,
+      name: Routes.ENVIAR_MENSAGEM_ALUNOS,
       method: Method.post,
       page: () => PostEnviarMensagemAlunosEndpoint(),
       binding: PostEnviarMensagemAlunosControllerBinding(),
@@ -45,6 +45,12 @@ class Nav {
       name: Routes.GET_TURMAS,
       page: () => GetTurmasEndpoint(),
       binding: GetTurmasControllerBinding(),
-    ),    
+    ),
+    GetPage(
+      name: Routes.GET_ALUNOS_BY_TURMA,
+      method: Method.post,
+      page: () => GetAlunosByTurmaEndpoint(),
+      binding: GetAlunosByTurmaControllerBinding(),
+    ),
   ];
 }

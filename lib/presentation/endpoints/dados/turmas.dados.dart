@@ -3,6 +3,8 @@ import 'package:api_ekko/presentation/endpoints/data/materia.data.dart';
 import 'package:api_ekko/presentation/endpoints/data/turma.data.dart';
 
 abstract class TurmasDados {
+  static final allTurmas = [turma1];
+
   static final turma1 = TurmaData(
     id: 1,
     nome: 'Turma ${GamesDados.game1.id}',
