@@ -108,5 +108,11 @@ class Nav {
       page: () => CadastrarAlunoEndpoint(),
       binding: CadastrarAlunoControllerBinding(),
     ),
+    GetPage(
+      name: Routes.DELETE_TURMA,
+      method: Method.delete,
+      page: () => DeleteTurmaEndpoint(),
+      binding: DeleteTurmaControllerBinding(),
+    ),
   ];
 }
