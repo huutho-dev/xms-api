@@ -6,3 +6,4 @@ export 'endpoints/turma/get_turmas/get_turmas.endpoint.dart';
 export 'endpoints/usuario/get_mensagens_enviadas/get_mensagens_enviadas.endpoint.dart';
 export 'endpoints/usuario/post_arquivar_mensagem/post_arquivar_mensagem.endpoint.dart';
 export 'endpoints/usuario/post_enviar_mensagem_alunos/post_enviar_mensagem_alunos.endpoint.dart';
+export 'endpoints/usuario/post_fale_conosco/post_fale_conosco.endpoint.dart';

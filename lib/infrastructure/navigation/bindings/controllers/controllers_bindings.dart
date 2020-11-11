@@ -5,4 +5,5 @@ export 'get_mensagens_enviadas.controller.binding.dart';
 export 'get_turmas.controller.binding.dart';
 export 'post_arquivar_mensagem.controller.binding.dart';
 export 'post_enviar_mensagem_alunos.controller.binding.dart';
+export 'post_fale_conosco.controller.binding.dart';
 export 'post_ratting.controller.binding.dart';

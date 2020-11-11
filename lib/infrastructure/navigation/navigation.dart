@@ -58,5 +58,11 @@ class Nav {
       page: () => PostRattingEndpoint(),
       binding: PostRattingControllerBinding(),
     ),
+    GetPage(
+      name: Routes.POST_FALE_CONOSCO,
+      method: Method.post,
+      page: () => PostFaleConoscoEndpoint(),
+      binding: PostFaleConoscoControllerBinding(),
+    ),
   ];
 }
