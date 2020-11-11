@@ -1,15 +1,15 @@
 import 'dart:async';
 
-import 'package:api_ekko/presentation/dados/turmas.dados.dart';
+import 'package:api_ekko/presentation/dados/tarefas.dados.dart';
 import 'package:get_server/get_server.dart';
 
-import 'get_turmas.controller.dart';
+import 'get_tarefas.controller.dart';
 
-class GetTurmasEndpoint extends GetView<GetTurmasController> {
+class GetTarefasEndpoint extends GetView<GetTarefasController> {
   @override
   FutureOr<Widget> build(BuildContext context) async {
     try {
-      var list = [TurmasDados.turma1];
+      var list = TarefasDados.allTarefas;
       var response = controller.createResponse(list);
       return Json(response);
     } catch (err) {

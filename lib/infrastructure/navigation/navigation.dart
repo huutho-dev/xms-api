@@ -64,5 +64,10 @@ class Nav {
       page: () => PostFaleConoscoEndpoint(),
       binding: PostFaleConoscoControllerBinding(),
     ),
+    GetPage(
+      name: Routes.GET_TAREFAS,
+      page: () => GetTarefasEndpoint(),
+      binding: GetTarefasControllerBinding(),
+    ),    
   ];
 }

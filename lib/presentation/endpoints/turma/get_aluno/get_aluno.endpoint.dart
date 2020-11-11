@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:api_ekko/presentation/endpoints/dados/alunos.dados.dart';
-import 'package:api_ekko/presentation/endpoints/dados/turmas.dados.dart';
+import 'package:api_ekko/presentation/dados/alunos.dados.dart';
+import 'package:api_ekko/presentation/dados/turmas.dados.dart';
 import 'package:get_server/get_server.dart';
 
 import 'get_aluno.controller.dart';

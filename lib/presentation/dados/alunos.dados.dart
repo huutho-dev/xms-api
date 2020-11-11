@@ -2,7 +2,7 @@ import 'package:api_ekko/presentation/endpoints/data/aluno.data.dart';
 import 'package:api_ekko/presentation/endpoints/data/historico_aluno.data.dart';
 import 'package:api_ekko/presentation/endpoints/data/nota_vermelha_info.data.dart';
 
-class AlunosDados {
+abstract class AlunosDados {
   static final allAlunos = [aluno1];
 
   static final aluno1 = AlunoData(

@@ -1,7 +1,7 @@
 import 'dart:async';
 
+import 'package:api_ekko/presentation/dados/turmas.dados.dart';
 import 'package:api_ekko/presentation/endpoints/auth/authenticate_user/dto/authenticate_user.response.dart';
-import 'package:api_ekko/presentation/endpoints/dados/turmas.dados.dart';
 import 'package:get_server/get_server.dart';
 
 import 'authenticate_user.controller.dart';

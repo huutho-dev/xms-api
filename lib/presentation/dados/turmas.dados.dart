@@ -1,6 +1,7 @@
-import 'package:api_ekko/presentation/endpoints/dados/games.dados.dart';
 import 'package:api_ekko/presentation/endpoints/data/materia.data.dart';
 import 'package:api_ekko/presentation/endpoints/data/turma.data.dart';
+
+import 'games.dados.dart';
 
 abstract class TurmasDados {
   static final allTurmas = [turma1];

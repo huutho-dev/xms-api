@@ -2,7 +2,7 @@ import 'package:api_ekko/presentation/endpoints/data/episodio.data.dart';
 import 'package:api_ekko/presentation/endpoints/data/game.data.dart';
 import 'package:api_ekko/presentation/endpoints/data/mundo.data.dart';
 
-class GamesDados {
+abstract class GamesDados {
   static final game1 = GameData(
     id: 1,
     nome: 'Mistério dos Mundos I',
