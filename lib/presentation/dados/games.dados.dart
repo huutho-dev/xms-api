@@ -5,7 +5,7 @@ import 'package:api_ekko/presentation/endpoints/data/mundo.data.dart';
 abstract class GamesDados {
   static final game1 = GameData(
     id: 1,
-    nome: 'Mistério dos Mundos I',
+    nome: 'Mistério dos Sonhos I',
     mundos: [
       MundoData(
         episodios: [
@@ -60,7 +60,7 @@ abstract class GamesDados {
 
   static final game2 = GameData(
     id: 2,
-    nome: 'Mistério dos Mundos II',
+    nome: 'Mistério dos Sonhos II',
     mundos: [
       MundoData(
         episodios: [
@@ -115,7 +115,7 @@ abstract class GamesDados {
 
   static final game3 = GameData(
     id: 3,
-    nome: 'Mistério dos Mundos III',
+    nome: 'Mistério dos Sonhos III',
     mundos: [
       MundoData(
         episodios: [
