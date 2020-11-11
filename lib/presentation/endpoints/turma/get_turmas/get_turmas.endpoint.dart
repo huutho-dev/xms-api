@@ -9,7 +9,7 @@ class GetTurmasEndpoint extends GetView<GetTurmasController> {
   @override
   FutureOr<Widget> build(BuildContext context) async {
     try {
-      var list = [TurmasDados.turma1];
+      var list = TurmasDados.allTurmas;
       var response = controller.createResponse(list);
       return Json(response);
     } catch (err) {
