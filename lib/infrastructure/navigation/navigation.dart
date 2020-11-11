@@ -35,5 +35,11 @@ class Nav {
       page: () => PostArquivarMensagemEndpoint(),
       binding: PostArquivarMensagemControllerBinding(),
     ),
+    GetPage(
+      name: Routes.POST_ENVIAR_MENSAGEM_ALUNOS,
+      method: Method.post,
+      page: () => PostEnviarMensagemAlunosEndpoint(),
+      binding: PostEnviarMensagemAlunosControllerBinding(),
+    ),
   ];
 }

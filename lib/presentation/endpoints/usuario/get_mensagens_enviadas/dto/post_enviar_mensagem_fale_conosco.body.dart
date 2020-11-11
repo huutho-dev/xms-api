@@ -1,6 +1,5 @@
+import 'package:api_ekko/presentation/endpoints/usuario/data/mensagem.data.dart';
 import 'package:json_annotation/json_annotation.dart';
-
-import 'data/mensagem.data.dart';
 
 part 'post_enviar_mensagem_fale_conosco.body.g.dart';
 

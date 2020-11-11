@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:api_ekko/presentation/endpoints/usuario/get_mensagens_enviadas/dto/data/mensagem.data.dart';
+import 'package:api_ekko/presentation/endpoints/usuario/data/mensagem.data.dart';
 import 'package:get_server/get_server.dart';
 
 import 'get_mensagens_enviadas.controller.dart';

@@ -1,6 +1,5 @@
+import 'package:api_ekko/presentation/endpoints/usuario/data/mensagem.data.dart';
 import 'package:json_annotation/json_annotation.dart';
-
-import 'data/mensagem.data.dart';
 
 part 'get_mensagens_enviadas.response.g.dart';
 

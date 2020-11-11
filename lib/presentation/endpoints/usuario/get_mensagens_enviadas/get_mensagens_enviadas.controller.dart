@@ -1,6 +1,6 @@
+import 'package:api_ekko/presentation/endpoints/usuario/data/mensagem.data.dart';
 import 'package:get_server/get_server.dart';
 
-import 'dto/data/mensagem.data.dart';
 import 'dto/get_mensagens_enviadas.response.dart';
 
 class GetMensagensEnviadasController extends GetxController {
