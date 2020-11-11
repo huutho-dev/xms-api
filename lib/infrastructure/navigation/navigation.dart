@@ -87,5 +87,10 @@ class Nav {
       page: () => ArquivarTarefaEndpoint(),
       binding: ArquivarTarefaControllerBinding(),
     ),
+    GetPage(
+      name: Routes.GET_TODOS_ALUNOS,
+      page: () => GetTodosAlunosEndpoint(),
+      binding: GetTodosAlunosControllerBinding(),
+    ),    
   ];
 }

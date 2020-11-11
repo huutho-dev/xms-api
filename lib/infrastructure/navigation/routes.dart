@@ -3,6 +3,7 @@ class Routes {
     return HOME;
   }
 
+  static const GET_TODOS_ALUNOS = '/api/turma/alunos';
   static const ARQUIVAR_TAREFA = '/api/tarefa/:id/arquivar';
   static const ATUALIZAR_TAREFA = '/api/tarefa';
   static const AUTHENTICATE_USER = '/api/auth/login';

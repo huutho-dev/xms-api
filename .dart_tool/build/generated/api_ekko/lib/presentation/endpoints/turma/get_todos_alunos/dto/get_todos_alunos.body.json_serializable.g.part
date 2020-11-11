@@ -1,0 +1,10 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+GetTodosAlunosBody _$GetTodosAlunosBodyFromJson(Map<String, dynamic> json) {
+  return GetTodosAlunosBody();
+}
+
+Map<String, dynamic> _$GetTodosAlunosBodyToJson(GetTodosAlunosBody instance) =>
+    <String, dynamic>{};
