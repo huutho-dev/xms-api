@@ -14,8 +14,15 @@ class Nav {
     ),
     GetPage(
       name: Routes.GET_ALUNO,
+      method: Method.get,
       page: () => GetAlunoEndpoint(),
       binding: GetAlunoControllerBinding(),
+    ),
+    GetPage(
+      name: Routes.AUTHENTICATE_USER,
+      method: Method.post,
+      page: () => AuthenticateUserEndpoint(),
+      binding: AuthenticateUserControllerBinding(),
     ),
   ];
 }
