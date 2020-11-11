@@ -1,5 +1,6 @@
 export 'endpoints/auth/authenticate_user/authenticate_user.endpoint.dart';
 export 'endpoints/ratting/post_ratting/post_ratting.endpoint.dart';
+export 'endpoints/tarefa/arquivar_tarefa/arquivar_tarefa.endpoint.dart';
 export 'endpoints/tarefa/atualizar_tarefa/atualizar_tarefa.endpoint.dart';
 export 'endpoints/tarefa/get_tarefas/get_tarefas.endpoint.dart';
 export 'endpoints/tarefa/post_tarefa/post_tarefa.endpoint.dart';

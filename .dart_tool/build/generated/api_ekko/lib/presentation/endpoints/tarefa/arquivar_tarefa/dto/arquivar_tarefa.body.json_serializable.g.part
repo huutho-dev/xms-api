@@ -1,0 +1,10 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+ArquivarTarefaBody _$ArquivarTarefaBodyFromJson(Map<String, dynamic> json) {
+  return ArquivarTarefaBody();
+}
+
+Map<String, dynamic> _$ArquivarTarefaBodyToJson(ArquivarTarefaBody instance) =>
+    <String, dynamic>{};

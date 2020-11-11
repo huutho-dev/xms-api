@@ -81,5 +81,11 @@ class Nav {
       page: () => AtualizarTarefaEndpoint(),
       binding: AtualizarTarefaControllerBinding(),
     ),
+    GetPage(
+      name: Routes.ARQUIVAR_TAREFA,
+      method: Method.post,
+      page: () => ArquivarTarefaEndpoint(),
+      binding: ArquivarTarefaControllerBinding(),
+    ),
   ];
 }
