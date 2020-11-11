@@ -8,3 +8,4 @@ export 'post_arquivar_mensagem.controller.binding.dart';
 export 'post_enviar_mensagem_alunos.controller.binding.dart';
 export 'post_fale_conosco.controller.binding.dart';
 export 'post_ratting.controller.binding.dart';
+export 'post_tarefa.controller.binding.dart';

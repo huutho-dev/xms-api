@@ -68,6 +68,12 @@ class Nav {
       name: Routes.GET_TAREFAS,
       page: () => GetTarefasEndpoint(),
       binding: GetTarefasControllerBinding(),
-    ),    
+    ),
+    GetPage(
+      name: Routes.POST_TAREFA,
+      method: Method.post,
+      page: () => PostTarefaEndpoint(),
+      binding: PostTarefaControllerBinding(),
+    ),
   ];
 }
