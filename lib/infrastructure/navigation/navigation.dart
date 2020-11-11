@@ -28,6 +28,12 @@ class Nav {
       name: Routes.GET_MENSAGENS_ENVIADAS,
       page: () => GetMensagensEnviadasEndpoint(),
       binding: GetMensagensEnviadasControllerBinding(),
-    ),    
+    ),
+    GetPage(
+      name: Routes.POST_ARQUIVAR_MENSAGEM,
+      method: Method.post,
+      page: () => PostArquivarMensagemEndpoint(),
+      binding: PostArquivarMensagemControllerBinding(),
+    ),
   ];
 }

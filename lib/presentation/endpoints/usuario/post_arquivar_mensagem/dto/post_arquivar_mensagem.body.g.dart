@@ -9,7 +9,7 @@ part of 'post_arquivar_mensagem.body.dart';
 PostArquivarMensagemBody _$PostArquivarMensagemBodyFromJson(
     Map<String, dynamic> json) {
   return PostArquivarMensagemBody(
-    id: json['id'] as int,
+    json['id'] as int,
   );
 }
 

@@ -6,7 +6,7 @@ part 'post_arquivar_mensagem.body.g.dart';
 class PostArquivarMensagemBody {
   int id;
 
-  PostArquivarMensagemBody({this.id});
+  PostArquivarMensagemBody(this.id);
 
   factory PostArquivarMensagemBody.fromJson(Map<String, dynamic> json) =>
       _$PostArquivarMensagemBodyFromJson(json);
