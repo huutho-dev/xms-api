@@ -1,4 +1,5 @@
 export 'arquivar_tarefa.controller.binding.dart';
+export 'atualizar_game_turma.controller.binding.dart';
 export 'atualizar_tarefa.controller.binding.dart';
 export 'atualizar_turma.controller.binding.dart';
 export 'authenticate_user.controller.binding.dart';

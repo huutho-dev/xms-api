@@ -3,9 +3,10 @@ class Routes {
     return HOME;
   }
 
-  static const ATUALIZAR_TURMA = '/api/turma';
+  static const ATUALIZAR_GAME_TURMA = '/api/turma/:id/game';
   static const ARQUIVAR_TAREFA = '/api/tarefa/:id/arquivar';
   static const ATUALIZAR_TAREFA = '/api/tarefa';
+  static const ATUALIZAR_TURMA = '/api/turma';
   static const AUTHENTICATE_USER = '/api/auth/login';
   static const CADASTRAR_ALUNO = '/api/turma/:id/alunos/cadastrar';
   static const CRIAR_TURMA = '/api//turma';

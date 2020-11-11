@@ -126,5 +126,11 @@ class Nav {
       page: () => AtualizarTurmaEndpoint(),
       binding: AtualizarTurmaControllerBinding(),
     ),
+    GetPage(
+      name: Routes.ATUALIZAR_GAME_TURMA,
+      method: Method.put,
+      page: () => AtualizarGameTurmaEndpoint(),
+      binding: AtualizarGameTurmaControllerBinding(),
+    ),
   ];
 }

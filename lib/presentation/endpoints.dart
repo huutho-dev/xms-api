@@ -4,6 +4,7 @@ export 'endpoints/tarefa/arquivar_tarefa/arquivar_tarefa.endpoint.dart';
 export 'endpoints/tarefa/atualizar_tarefa/atualizar_tarefa.endpoint.dart';
 export 'endpoints/tarefa/get_tarefas/get_tarefas.endpoint.dart';
 export 'endpoints/tarefa/post_tarefa/post_tarefa.endpoint.dart';
+export 'endpoints/turma/atualizar_game_turma/atualizar_game_turma.endpoint.dart';
 export 'endpoints/turma/atualizar_turma/atualizar_turma.endpoint.dart';
 export 'endpoints/turma/cadastrar_aluno/cadastrar_aluno.endpoint.dart';
 export 'endpoints/turma/criar_turma/criar_turma.endpoint.dart';
