@@ -24,5 +24,10 @@ class Nav {
       page: () => AuthenticateUserEndpoint(),
       binding: AuthenticateUserControllerBinding(),
     ),
+    GetPage(
+      name: Routes.GET_MENSAGENS_ENVIADAS,
+      page: () => GetMensagensEnviadasEndpoint(),
+      binding: GetMensagensEnviadasControllerBinding(),
+    ),    
   ];
 }
